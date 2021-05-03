@@ -12,9 +12,11 @@ let  walkHome=function(dogName="Byron", dogBreed="poodle") {
   return`Walk home with ${dogName} the ${dogBreed}`;}
 let  unleashDog=function(dogName="Byron", dogBreed="poodle") {
   return`Unleash ${dogName} the ${dogBreed}`;}
-const routine=[wakedog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
 
-function exerciseDog(dogName="Byron", dogBreed="poodle") {
-return routine.map(item=>item(dogName,dogBreed));
 
+s
+const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
+
+function exerciseDog(dog, breed) {
+  return routine.map(func => func(dog, breed))
 }
