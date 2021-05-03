@@ -13,8 +13,6 @@ let  walkHome=function(dogName="Byron", dogBreed="poodle") {
 let  unleashDog=function(dogName="Byron", dogBreed="poodle") {
   return`Unleash ${dogName} the ${dogBreed}`;}
 
-
-s
 const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 
 function exerciseDog(dog, breed) {
