@@ -16,5 +16,5 @@ let routine=[wakedog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
 
 function routine(dogName="Byron", dogBreed="poodle") {
 return routine.map(item=>item(dogName,dogBreed));
-  
+
 }
