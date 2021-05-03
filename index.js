@@ -1,16 +1,16 @@
-function wakeDog(dogName="Byron", dogBreed="poodle") {
+let wakeDog=function(dogName="Byron", dogBreed="poodle") {
   console.log(`Wake ${dogName} the ${dogBreed}`);
   return `Wake ${dogName} the ${dogBreed}`;
 }
-function leashDog(dogName="Byron", dogBreed="poodle") {
+let  leashDog=function(dogName="Byron", dogBreed="poodle") {
   return `Leash ${dogName} the ${dogBreed}`;}
-function walkToPark(dogName="Byron", dogBreed="poodle") {
+let  walkToPark=function(dogName="Byron", dogBreed="poodle") {
   return `Walk to the park with ${dogName} the ${dogBreed}`;}
-function throwFrisbee(dogName="Byron", dogBreed="poodle") {
-  return`Throw the frisbee for ${dogName} the ${dogBreed}`;}
-function walkHome(dogName="Byron", dogBreed="poodle") {
+let  throwFrisbee=function(dogName="Byron", dogBreed="poodle") {
+  returnlet `Throw the frisbee for ${dogName} the ${dogBreed}`;}
+let  walkHome=function(dogName="Byron", dogBreed="poodle") {
   return`Walk home with ${dogName} the ${dogBreed}`;}
-function unleashDog(dogName="Byron", dogBreed="poodle") {
+let  unleashDog=function(dogName="Byron", dogBreed="poodle") {
   return`Unleash ${dogName} the ${dogBreed}`;}
 let routine=[wakedog(),leashDog()
 walkToPark(),
