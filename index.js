@@ -15,12 +15,6 @@ let  unleashDog=function(dogName="Byron", dogBreed="poodle") {
 let routine=[wakedog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
 
 function routine(dogName="Byron", dogBreed="poodle") {
-
-
-  console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
-
-  console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
-
-  console.log(`Walk home with ${dogName} the ${dogBreed}`);
-
-  console.log(`Unleash ${dogName} the ${dogBreed}`);}
+return routine.map(item=>item(dogName,dogBreed));
+  
+}
