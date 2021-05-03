@@ -12,7 +12,7 @@ function walkHome(dogName="Byron", dogBreed="poodle") {
   return`Walk home with ${dogName} the ${dogBreed}`;}
 function unleashDog(dogName="Byron", dogBreed="poodle") {
   return`Unleash ${dogName} the ${dogBreed}`;}
-routine=[wakedog(),leashDog()
+let routine=[wakedog(),leashDog()
 walkToPark(),
 throwFrisbee(),
 
