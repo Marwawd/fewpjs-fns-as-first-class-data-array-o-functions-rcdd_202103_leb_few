@@ -14,7 +14,7 @@ let  unleashDog=function(dogName="Byron", dogBreed="poodle") {
   return`Unleash ${dogName} the ${dogBreed}`;}
 let routine=[wakedog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
 
-function routine(dogName, dogBreed) {
+function exerciseDog(dogName="Byron", dogBreed="poodle") {
 return routine.map(item=>item(dogName,dogBreed));
 
 }
