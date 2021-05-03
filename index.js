@@ -7,12 +7,12 @@ let  leashDog=function(dogName="Byron", dogBreed="poodle") {
 let  walkToPark=function(dogName="Byron", dogBreed="poodle") {
   return `Walk to the park with ${dogName} the ${dogBreed}`;}
 let  throwFrisbee=function(dogName="Byron", dogBreed="poodle") {
-  returnlet `Throw the frisbee for ${dogName} the ${dogBreed}`;}
+  return `Throw the frisbee for ${dogName} the ${dogBreed}`;}
 let  walkHome=function(dogName="Byron", dogBreed="poodle") {
   return`Walk home with ${dogName} the ${dogBreed}`;}
 let  unleashDog=function(dogName="Byron", dogBreed="poodle") {
   return`Unleash ${dogName} the ${dogBreed}`;}
-let routine=[wakedog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
+const routine=[wakedog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
 
 function exerciseDog(dogName="Byron", dogBreed="poodle") {
 return routine.map(item=>item(dogName,dogBreed));
