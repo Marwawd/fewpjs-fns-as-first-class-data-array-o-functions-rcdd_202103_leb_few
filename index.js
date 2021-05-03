@@ -1,42 +1,25 @@
-function wakeDog(dogName, dogBreed) {
+function wakeDog(dogName="Byron", dogBreed="poodle") {
   console.log(`Wake ${dogName} the ${dogBreed}`);
   return `Wake ${dogName} the ${dogBreed}`;
 }
-function leashDog(dogName, dogBreed) {
+function leashDog(dogName="Byron", dogBreed="poodle") {
   return `Leash ${dogName} the ${dogBreed}`;}
-function walkToPark(dogName, dogBreed) {
+function walkToPark(dogName="Byron", dogBreed="poodle") {
   return `Walk to the park with ${dogName} the ${dogBreed}`;}
-function throwFrisbee(dogName, dogBreed) {
+function throwFrisbee(dogName="Byron", dogBreed="poodle") {
   return`Throw the frisbee for ${dogName} the ${dogBreed}`;}
-function walkHome(dogName, dogBreed) {
+function walkHome(dogName="Byron", dogBreed="poodle") {
   return`Walk home with ${dogName} the ${dogBreed}`;}
-function unleashDog(dogName, dogBreed) {
+function unleashDog(dogName="Byron", dogBreed="poodle") {
   return`Unleash ${dogName} the ${dogBreed}`;}
-  const a = "Xerox";
-  const b = "Border Collie";
-wakeDog(a,b);
-const aa = "Boo Radley";
-  const bb = "Pibble";
-  leashDog(aa, bb);
-const a1 = "Bunny";
-  const b1 = "Labrador";
-  walkToPark(a1, b1);
-const a2 = "Mary J. Blige";
-  const b2 = "Papillon";
-throwFrisbee(a2, b2);
-const a3 = "Santa Paws";
-  const b3 = "Husky";
-walkHome(a3, b3);
-const a4 = "Lauren";
-  const b4 = "Golden Retriever";
-unleashDog(a4, b4);
-const a5 = "Skippy";
-  const b5 = "Welsh Corgi";
-wakeDog(a5, b5);
-function routine(dogName, dogBreed) {
-  console.log(`Wake ${dogName} the ${dogBreed}`);
+routine=[wakedog(),leashDog()
+walkToPark(),
+throwFrisbee(),
 
-  console.log(`Leash ${dogName} the ${dogBreed}`);
+walkHome(),
+unleashDog()];
+function routine(dogName="Byron", dogBreed="poodle") {
+
 
   console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
 
